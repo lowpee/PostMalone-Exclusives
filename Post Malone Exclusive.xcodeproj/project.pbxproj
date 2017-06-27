@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1465B31EF11B9300E5AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465B21EF11B9300E5AE30 /* AppDelegate.swift */; };
+		9F1465B51EF11B9300E5AE30 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465B41EF11B9300E5AE30 /* MainVC.swift */; };
+		9F1465B81EF11B9300E5AE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1465B61EF11B9300E5AE30 /* Main.storyboard */; };
+		9F1465BA1EF11B9300E5AE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1465B91EF11B9300E5AE30 /* Assets.xcassets */; };
+		9F1465BD1EF11B9300E5AE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1465BB1EF11B9300E5AE30 /* LaunchScreen.storyboard */; };
+		9F1465C81EF11B9300E5AE30 /* Post_Malone_ExclusiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465C71EF11B9300E5AE30 /* Post_Malone_ExclusiveTests.swift */; };
+		9F1465D31EF11B9300E5AE30 /* Post_Malone_ExclusiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465D21EF11B9300E5AE30 /* Post_Malone_ExclusiveUITests.swift */; };
+		9F1465E71EF1DA2B00E5AE30 /* Tabarra-Shadow-FFP.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F1465E61EF1DA2B00E5AE30 /* Tabarra-Shadow-FFP.otf */; };
+		9F1465E91EF1DBF200E5AE30 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465E81EF1DBF200E5AE30 /* VideoVC.swift */; };
+		9F1465EB1EF1DD3600E5AE30 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1465EA1EF1DD3600E5AE30 /* PartyCell.swift */; };
+		9F2A4B7C1EF1E4090096D7E1 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A4B7B1EF1E4090096D7E1 /* PartyRock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1465C41EF11B9300E5AE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1465A71EF11B9300E5AE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1465AE1EF11B9300E5AE30;
+			remoteInfo = "Post Malone Exclusive";
+		};
+		9F1465CF1EF11B9300E5AE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1465A71EF11B9300E5AE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1465AE1EF11B9300E5AE30;
+			remoteInfo = "Post Malone Exclusive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1465AF1EF11B9300E5AE30 /* Post Malone Exclusive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Post Malone Exclusive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1465B21EF11B9300E5AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F1465B41EF11B9300E5AE30 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9F1465B71EF11B9300E5AE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1465B91EF11B9300E5AE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1465BC1EF11B9300E5AE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F1465BE1EF11B9300E5AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1465C31EF11B9300E5AE30 /* Post Malone ExclusiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Post Malone ExclusiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1465C71EF11B9300E5AE30 /* Post_Malone_ExclusiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_Malone_ExclusiveTests.swift; sourceTree = "<group>"; };
+		9F1465C91EF11B9300E5AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1465CE1EF11B9300E5AE30 /* Post Malone ExclusiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Post Malone ExclusiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1465D21EF11B9300E5AE30 /* Post_Malone_ExclusiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_Malone_ExclusiveUITests.swift; sourceTree = "<group>"; };
+		9F1465D41EF11B9300E5AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1465E61EF1DA2B00E5AE30 /* Tabarra-Shadow-FFP.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tabarra-Shadow-FFP.otf"; sourceTree = "<group>"; };
+		9F1465E81EF1DBF200E5AE30 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		9F1465EA1EF1DD3600E5AE30 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		9F2A4B7B1EF1E4090096D7E1 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1465AC1EF11B9300E5AE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465C01EF11B9300E5AE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465CB1EF11B9300E5AE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1465A61EF11B9300E5AE30 = {
+			isa = PBXGroup;
+			children = (
+				9F1465B11EF11B9300E5AE30 /* Post Malone Exclusive */,
+				9F1465C61EF11B9300E5AE30 /* Post Malone ExclusiveTests */,
+				9F1465D11EF11B9300E5AE30 /* Post Malone ExclusiveUITests */,
+				9F1465B01EF11B9300E5AE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1465B01EF11B9300E5AE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465AF1EF11B9300E5AE30 /* Post Malone Exclusive.app */,
+				9F1465C31EF11B9300E5AE30 /* Post Malone ExclusiveTests.xctest */,
+				9F1465CE1EF11B9300E5AE30 /* Post Malone ExclusiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1465B11EF11B9300E5AE30 /* Post Malone Exclusive */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465E51EF1D90300E5AE30 /* Files */,
+				9F1465E21EF11C5B00E5AE30 /* Model */,
+				9F1465E11EF11C5400E5AE30 /* View */,
+				9F1465E01EF11C4100E5AE30 /* Controller */,
+				9F1465B21EF11B9300E5AE30 /* AppDelegate.swift */,
+				9F1465B61EF11B9300E5AE30 /* Main.storyboard */,
+				9F1465BB1EF11B9300E5AE30 /* LaunchScreen.storyboard */,
+				9F1465B91EF11B9300E5AE30 /* Assets.xcassets */,
+				9F1465BE1EF11B9300E5AE30 /* Info.plist */,
+			);
+			path = "Post Malone Exclusive";
+			sourceTree = "<group>";
+		};
+		9F1465C61EF11B9300E5AE30 /* Post Malone ExclusiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465C71EF11B9300E5AE30 /* Post_Malone_ExclusiveTests.swift */,
+				9F1465C91EF11B9300E5AE30 /* Info.plist */,
+			);
+			path = "Post Malone ExclusiveTests";
+			sourceTree = "<group>";
+		};
+		9F1465D11EF11B9300E5AE30 /* Post Malone ExclusiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465D21EF11B9300E5AE30 /* Post_Malone_ExclusiveUITests.swift */,
+				9F1465D41EF11B9300E5AE30 /* Info.plist */,
+			);
+			path = "Post Malone ExclusiveUITests";
+			sourceTree = "<group>";
+		};
+		9F1465E01EF11C4100E5AE30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465B41EF11B9300E5AE30 /* MainVC.swift */,
+				9F1465E81EF1DBF200E5AE30 /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F1465E11EF11C5400E5AE30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465EA1EF1DD3600E5AE30 /* PartyCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F1465E21EF11C5B00E5AE30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F2A4B7B1EF1E4090096D7E1 /* PartyRock.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F1465E51EF1D90300E5AE30 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1465E61EF1DA2B00E5AE30 /* Tabarra-Shadow-FFP.otf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1465AE1EF11B9300E5AE30 /* Post Malone Exclusive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1465D71EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone Exclusive" */;
+			buildPhases = (
+				9F1465AB1EF11B9300E5AE30 /* Sources */,
+				9F1465AC1EF11B9300E5AE30 /* Frameworks */,
+				9F1465AD1EF11B9300E5AE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Post Malone Exclusive";
+			productName = "Post Malone Exclusive";
+			productReference = 9F1465AF1EF11B9300E5AE30 /* Post Malone Exclusive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1465C21EF11B9300E5AE30 /* Post Malone ExclusiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1465DA1EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone ExclusiveTests" */;
+			buildPhases = (
+				9F1465BF1EF11B9300E5AE30 /* Sources */,
+				9F1465C01EF11B9300E5AE30 /* Frameworks */,
+				9F1465C11EF11B9300E5AE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1465C51EF11B9300E5AE30 /* PBXTargetDependency */,
+			);
+			name = "Post Malone ExclusiveTests";
+			productName = "Post Malone ExclusiveTests";
+			productReference = 9F1465C31EF11B9300E5AE30 /* Post Malone ExclusiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1465CD1EF11B9300E5AE30 /* Post Malone ExclusiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1465DD1EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone ExclusiveUITests" */;
+			buildPhases = (
+				9F1465CA1EF11B9300E5AE30 /* Sources */,
+				9F1465CB1EF11B9300E5AE30 /* Frameworks */,
+				9F1465CC1EF11B9300E5AE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1465D01EF11B9300E5AE30 /* PBXTargetDependency */,
+			);
+			name = "Post Malone ExclusiveUITests";
+			productName = "Post Malone ExclusiveUITests";
+			productReference = 9F1465CE1EF11B9300E5AE30 /* Post Malone ExclusiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1465A71EF11B9300E5AE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DivLabs;
+				TargetAttributes = {
+					9F1465AE1EF11B9300E5AE30 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GCBTSWYSYH;
+						ProvisioningStyle = Automatic;
+					};
+					9F1465C21EF11B9300E5AE30 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GCBTSWYSYH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F1465AE1EF11B9300E5AE30;
+					};
+					9F1465CD1EF11B9300E5AE30 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GCBTSWYSYH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F1465AE1EF11B9300E5AE30;
+					};
+				};
+			};
+			buildConfigurationList = 9F1465AA1EF11B9300E5AE30 /* Build configuration list for PBXProject "Post Malone Exclusive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1465A61EF11B9300E5AE30;
+			productRefGroup = 9F1465B01EF11B9300E5AE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1465AE1EF11B9300E5AE30 /* Post Malone Exclusive */,
+				9F1465C21EF11B9300E5AE30 /* Post Malone ExclusiveTests */,
+				9F1465CD1EF11B9300E5AE30 /* Post Malone ExclusiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1465AD1EF11B9300E5AE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1465BD1EF11B9300E5AE30 /* LaunchScreen.storyboard in Resources */,
+				9F1465BA1EF11B9300E5AE30 /* Assets.xcassets in Resources */,
+				9F1465E71EF1DA2B00E5AE30 /* Tabarra-Shadow-FFP.otf in Resources */,
+				9F1465B81EF11B9300E5AE30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465C11EF11B9300E5AE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465CC1EF11B9300E5AE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1465AB1EF11B9300E5AE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1465E91EF1DBF200E5AE30 /* VideoVC.swift in Sources */,
+				9F1465B51EF11B9300E5AE30 /* MainVC.swift in Sources */,
+				9F2A4B7C1EF1E4090096D7E1 /* PartyRock.swift in Sources */,
+				9F1465EB1EF1DD3600E5AE30 /* PartyCell.swift in Sources */,
+				9F1465B31EF11B9300E5AE30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465BF1EF11B9300E5AE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1465C81EF11B9300E5AE30 /* Post_Malone_ExclusiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1465CA1EF11B9300E5AE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1465D31EF11B9300E5AE30 /* Post_Malone_ExclusiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1465C51EF11B9300E5AE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1465AE1EF11B9300E5AE30 /* Post Malone Exclusive */;
+			targetProxy = 9F1465C41EF11B9300E5AE30 /* PBXContainerItemProxy */;
+		};
+		9F1465D01EF11B9300E5AE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1465AE1EF11B9300E5AE30 /* Post Malone Exclusive */;
+			targetProxy = 9F1465CF1EF11B9300E5AE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1465B61EF11B9300E5AE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1465B71EF11B9300E5AE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1465BB1EF11B9300E5AE30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1465BC1EF11B9300E5AE30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1465D51EF11B9300E5AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1465D61EF11B9300E5AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1465D81EF11B9300E5AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone Exclusive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-Exclusive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F1465D91EF11B9300E5AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone Exclusive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-Exclusive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F1465DB1EF11B9300E5AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone ExclusiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-ExclusiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Post Malone Exclusive.app/Post Malone Exclusive";
+			};
+			name = Debug;
+		};
+		9F1465DC1EF11B9300E5AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone ExclusiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-ExclusiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Post Malone Exclusive.app/Post Malone Exclusive";
+			};
+			name = Release;
+		};
+		9F1465DE1EF11B9300E5AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone ExclusiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-ExclusiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Post Malone Exclusive";
+			};
+			name = Debug;
+		};
+		9F1465DF1EF11B9300E5AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GCBTSWYSYH;
+				INFOPLIST_FILE = "Post Malone ExclusiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divlabs.Post-Malone-ExclusiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Post Malone Exclusive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1465AA1EF11B9300E5AE30 /* Build configuration list for PBXProject "Post Malone Exclusive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1465D51EF11B9300E5AE30 /* Debug */,
+				9F1465D61EF11B9300E5AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1465D71EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone Exclusive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1465D81EF11B9300E5AE30 /* Debug */,
+				9F1465D91EF11B9300E5AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1465DA1EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone ExclusiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1465DB1EF11B9300E5AE30 /* Debug */,
+				9F1465DC1EF11B9300E5AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1465DD1EF11B9300E5AE30 /* Build configuration list for PBXNativeTarget "Post Malone ExclusiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1465DE1EF11B9300E5AE30 /* Debug */,
+				9F1465DF1EF11B9300E5AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1465A71EF11B9300E5AE30 /* Project object */;
+}
